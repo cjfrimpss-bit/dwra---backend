@@ -5,8 +5,8 @@
   "description": "DWRA backend API (Stripe checkout sessions)",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "node --watch server.js"
+    "start": "node api.js && node server.js",
+    "dev": "node api.js && node --watch server.js"
   },
   "engines": {
     "node": ">=20"
@@ -18,4 +18,3 @@
     "stripe": "^21.0.1"
   }
 }
-
